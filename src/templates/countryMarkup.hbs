@@ -15,6 +15,16 @@
             {{/each}}
         </li>
         <li>Native name: {{nativeName}}</li>
+        <li>Region: {{region}}</li>
+        <li>Timezone: {{timezones}}</li>
+        <li>Currency:
+
+            {{#each currencies}}
+            <ul>
+                <li>{{name}}</li>
+            </ul>
+            {{/each}}
+        </li>
     </ul>
     <img src="{{flag}}" alt="`{{name}} flag`" width="300">
 </div>
