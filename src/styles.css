@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Henny Penny', cursive;
+  text-align: center;
+  background-image: url('./images/world-map.jpg');
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  background-color: #0095b6;
+  padding: 60px;
+}
+li {
+  list-style: none;
+}
+
+.title {
+  margin: 0;
+  color: #fff;
+  font-size: 50px;
+}
+
+.country-input {
+  margin: 20px;
+  font-family: 'Henny Penny', cursive;
+  border-radius: 30px;
+  padding: 10px 15px;
+  min-width: 300px;
+  border: transparent;
+  outline: none;
+  box-shadow: 1px 1px 2px black;
+  font-size: 20px;
+}
+
+.js-country-title {
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+}
+.js-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.js-card-list {
+  font-size: 30px;
+  color: #fff;
+  list-style: none;
+  margin-right: 50px;
+}
+.js-list-title {
+  color: rgb(240, 175, 53);
+  font-style: italic;
+  font-weight: 700;
+}
+.js-country-list {
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+}
+
+.country-flag {
+  border-radius: 50px;
+}

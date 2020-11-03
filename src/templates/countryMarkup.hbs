@@ -1,12 +1,12 @@
 {{#each this}}
 
-<h2>{{name}}</h2>
+<h2 class="js-country-title">{{name}}</h2>
 
-<div>
-    <ul>
-        <li>Capital:{{capital}}</li>
-        <li>Population:{{population}}</li>
-        <li>Languages:
+<div class="js-cards-container">
+    <ul class="js-card-list">
+        <li><span class="js-list-title">Capital: </span>{{capital}}</li>
+        <li><span class="js-list-title">Population: </span>{{population}}</li>
+        <li><span class="js-list-title">Languages: </span>
 
             {{#each languages}}
             <ul>
@@ -14,10 +14,8 @@
             </ul>
             {{/each}}
         </li>
-        <li>Native name: {{nativeName}}</li>
-        <li>Region: {{region}}</li>
-        <li>Timezone: {{timezones}}</li>
-        <li>Currency:
+        <li><span class="js-list-title">Region: </span>{{region}}</li>
+        <li><span class="js-list-title">Currency: </span>
 
             {{#each currencies}}
             <ul>
@@ -26,6 +24,6 @@
             {{/each}}
         </li>
     </ul>
-    <img src="{{flag}}" alt="`{{name}} flag`" width="300">
+    <img src="{{flag}}" alt="`{{name}} flag`" width="300" class="country-flag">
 </div>
 {{/each}}
