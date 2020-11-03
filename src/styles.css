@@ -10,8 +10,7 @@ body {
   font-family: 'Henny Penny', cursive;
   text-align: center;
   background-image: url('./images/world-map.jpg');
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
+
   background-color: #0095b6;
   padding: 60px;
 }
